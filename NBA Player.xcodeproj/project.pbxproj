@@ -15,6 +15,8 @@
 		5C98BEA128A55F7B001686E0 /* NBA_PlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C98BEA028A55F7B001686E0 /* NBA_PlayerUITests.swift */; };
 		5C98BEA328A55F7B001686E0 /* NBA_PlayerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C98BEA228A55F7B001686E0 /* NBA_PlayerUITestsLaunchTests.swift */; };
 		5C98BEB028A56424001686E0 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C98BEAF28A56424001686E0 /* Player.swift */; };
+		5C98BEB228A594EE001686E0 /* StatText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C98BEB128A594EE001686E0 /* StatText.swift */; };
+		5C98BEB428A59D01001686E0 /* PlayerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C98BEB328A59D01001686E0 /* PlayerRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		5C98BEA028A55F7B001686E0 /* NBA_PlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NBA_PlayerUITests.swift; sourceTree = "<group>"; };
 		5C98BEA228A55F7B001686E0 /* NBA_PlayerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NBA_PlayerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		5C98BEAF28A56424001686E0 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Player.swift; path = "../../Player Info/Player.swift"; sourceTree = "<group>"; };
+		5C98BEB128A594EE001686E0 /* StatText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatText.swift; sourceTree = "<group>"; };
+		5C98BEB328A59D01001686E0 /* PlayerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 				5C98BEAF28A56424001686E0 /* Player.swift */,
 				5C98BE8528A55F77001686E0 /* NBA_PlayerApp.swift */,
 				5C98BE8728A55F77001686E0 /* ContentView.swift */,
+				5C98BEB128A594EE001686E0 /* StatText.swift */,
+				5C98BEB328A59D01001686E0 /* PlayerRow.swift */,
 				5C98BE8928A55F7B001686E0 /* Assets.xcassets */,
 				5C98BE8B28A55F7B001686E0 /* Preview Content */,
 			);
@@ -262,6 +268,8 @@
 			files = (
 				5C98BE8828A55F77001686E0 /* ContentView.swift in Sources */,
 				5C98BEB028A56424001686E0 /* Player.swift in Sources */,
+				5C98BEB228A594EE001686E0 /* StatText.swift in Sources */,
+				5C98BEB428A59D01001686E0 /* PlayerRow.swift in Sources */,
 				5C98BE8628A55F77001686E0 /* NBA_PlayerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
