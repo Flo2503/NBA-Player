@@ -14,7 +14,7 @@ struct PlayerRow: View {
     var body: some View {
         HStack {
             Image(player.imageName).resizable().aspectRatio(contentMode: .fit).clipShape(Circle()).background(Circle().foregroundColor(player.team.color))
-            Text(player.name).font(.largeTitle)
+            Text(player.name).font(.title2)
             Spacer()
         }
     }
