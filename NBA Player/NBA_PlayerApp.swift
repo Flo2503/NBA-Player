@@ -11,7 +11,7 @@ import SwiftUI
 struct NBA_PlayerApp: App {
     var body: some Scene {
         WindowGroup {
-            PlayerDetail(player: players[0])
+            PlayerList()
         }
     }
 }

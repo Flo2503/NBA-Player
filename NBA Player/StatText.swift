@@ -14,10 +14,10 @@ struct StatText: View {
     
     var body: some View {
         HStack {
-            Text(statName).fontWeight(.bold).padding(.leading, 30)
-            Text(statValue).fontWeight(.light).padding(.trailing, 30)
+            Text(statName).font(.system(size: 45)).fontWeight(.bold).padding(.leading, 30)
+            Text(statValue).font(.system(size: 45)).fontWeight(.light).padding(.trailing, 30)
             Spacer()
-        }.font(.system(size: 45))
+        }.minimumScaleFactor(0.6)
     }
 }
 
